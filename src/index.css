@@ -154,6 +154,10 @@ body::before {
   animation: spin-slow 38s linear infinite reverse;
 }
 
+.orbit-item {
+  animation: spin-slow 28s linear infinite reverse;
+}
+
 .live-dot {
   animation: pulse-dot 1.6s ease-in-out infinite;
 }
@@ -185,6 +189,7 @@ dialog::backdrop {
   .marquee,
   .orbit,
   .orbit-rev,
+  .orbit-item,
   .live-dot {
     animation: none;
   }

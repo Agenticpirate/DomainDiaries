@@ -24,7 +24,7 @@ export function CoinOrbit() {
           return (
             <span
               key={icon.label}
-              className="absolute grid size-12 -translate-x-1/2 -translate-y-1/2 place-items-center rounded-2xl text-[10px] font-bold text-white shadow-lg"
+              className="orbit-item absolute grid size-12 -translate-x-1/2 -translate-y-1/2 place-items-center rounded-2xl text-[10px] font-bold text-white shadow-lg"
               style={{
                 left: `${x}%`,
                 top: `${y}%`,
