@@ -1,38 +1,32 @@
-# Krypto
+# Krypto Directory
 
-Private crypto markets desk. Live tape, a watchlist, and a portfolio that never leaves the browser.
+Premium crypto project leaderboard. Rank is an auction.
 
-No login. Watchlist and holdings stay in `localStorage` on this device.
+This is a high-fidelity sample of the directory: gold / silver / bronze podium, live outbid ticker, network and category boards, and a listing desk. Bids in this build stay on the device (`localStorage`) until real payments ship.
 
-## What it does
-
-- **Markets** — top coins by cap, 1h / 24h / 7d change, 7-day sparkline
-- **Coin** — price chart, market stats, homepage link
-- **Watchlist** — star names from the tape
-- **Portfolio** — quantity + USD cost basis, live P&L
-
-Market data is proxied through a Cloudflare Worker (`/api/*`) with short Cache API TTLs so the public CoinGecko demo API is not hammered from every browser tab.
-
-## Run locally
+## Run
 
 ```bash
 npm install
-npx wrangler types
 npm run dev
 ```
 
 Open [http://localhost:5173](http://localhost:5173).
 
 ```bash
-npm run lint    # typecheck
-npm run build   # client + worker
-npm run deploy  # Cloudflare Workers (requires wrangler auth)
+npm run lint
+npm run build
 ```
 
-## Domain Diaries data
+## Product surface
 
-This repository also still holds the Domain Diaries tweet/sale collectors under `data/` and `scripts/`. Krypto is the product surface.
+| Path | What |
+|---|---|
+| `/` | Leaderboard, podium, ticker, table, market widgets |
+| `/networks` | Chain boards |
+| `/categories` | Category boards |
+| `/promote` | Listing pitch |
+| `/project/:id` | Project page |
+| `/about` `/resources` | Editorial |
 
-## License
-
-Private / project-specific unless otherwise noted.
+Domain Diaries collectors remain under `data/` and `scripts/`.
