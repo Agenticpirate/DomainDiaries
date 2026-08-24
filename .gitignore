@@ -1,5 +1,18 @@
 # Secrets — never commit
 .env
+.env.local
+.dev.vars
+.dev.vars*
+
+# Node
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Cloudflare
+.wrangler
+.mf
+worker-configuration.d.ts
 
 # Python
 __pycache__/

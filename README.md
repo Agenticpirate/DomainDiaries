@@ -1,28 +1,38 @@
-# Domain Diaries
+# Krypto
 
-Wall of fame for domainers: sale tweets with backlinks to the original posts on X.
+Private crypto markets desk. Live tape, a watchlist, and a portfolio that never leaves the browser.
 
-## Data
+No login. Watchlist and holdings stay in `localStorage` on this device.
 
-| File | What |
-|---|---|
-| `data/tweets.jsonl` | Unique sale tweets (`id`, `url` → `https://x.com/{user}/status/{id}`, handle, text, date, parsed domain/price, `premium_tier`) |
-| `data/tweets-2025-2026.jsonl` | Same shape, dated 2025-01-01 through 2026-08-15 |
-| `data/sales.jsonl` | Full collect (tweets + DNJournal chart rows) |
-| `data/premium.jsonl` | Rows with `price_usd >= 20000` (`20k` / `30k` / `50k`) |
-| `data/summary.json` | Collect stats |
+## What it does
 
-Each tweet card on the future site should use `url` as the backlink to the original post.
+- **Markets** — top coins by cap, 1h / 24h / 7d change, 7-day sparkline
+- **Coin** — price chart, market stats, homepage link
+- **Watchlist** — star names from the tape
+- **Portfolio** — quantity + USD cost basis, live P&L
 
-## Counts (as of 2026-08-15)
+Market data is proxied through a Cloudflare Worker (`/api/*`) with short Cache API TTLs so the public CoinGecko demo API is not hammered from every browser tab.
 
-- ~10k unique tweet IDs with original x.com links
-- ~1.3k domainers
-- ~4k premium ($20k+)
-- Window 2025 → 15 Aug 2026 is the wall set in `tweets-2025-2026.jsonl`
+## Run locally
 
-## Scripts
+```bash
+npm install
+npx wrangler types
+npm run dev
+```
 
-Collectors under `scripts/` (nitter.poast.org / DNJournal). Official X API was not available.
+Open [http://localhost:5173](http://localhost:5173).
 
-Do not commit `.env`.
+```bash
+npm run lint    # typecheck
+npm run build   # client + worker
+npm run deploy  # Cloudflare Workers (requires wrangler auth)
+```
+
+## Domain Diaries data
+
+This repository also still holds the Domain Diaries tweet/sale collectors under `data/` and `scripts/`. Krypto is the product surface.
+
+## License
+
+Private / project-specific unless otherwise noted.
