@@ -1,0 +1,100 @@
+{
+  "notes": [
+    "Seed list for from: timeline pulls via search (not HTML scrape, not user-timeline HTML).",
+    "Handles checked against public 2025\u20132026 citations (sites, newsletters, ICANN Wiki, official blogs). Re-verify if a lookup 404s.",
+    "Collector turns each username into from:USERNAME queries and also uses the grouped from: queries in queries.json.",
+    "Numeric user ids can be filled later (users/by/username) and used as from:12345."
+  ],
+  "accounts": [
+    {
+      "username": "DomainNameWire",
+      "name": "Domain Name Wire",
+      "why": "Highest-volume domain-industry news site (Andrew Allemann). Regular sale write-ups and links."
+    },
+    {
+      "username": "AndrewAllemann",
+      "name": "Andrew Allemann",
+      "why": "Publisher of Domain Name Wire; personal account often quotes or discusses sales. Primary posting is also via DomainNameWire."
+    },
+    {
+      "username": "DNJournal",
+      "name": "Domain Name Journal",
+      "why": "Ron Jackson's DNJournal \u2014 weekly/monthly public sales charts, the industry's long-running sale ledger."
+    },
+    {
+      "username": "DomainSherpa",
+      "name": "DomainSherpa",
+      "why": "Interview / review show; guests and hosts discuss closed deals and appraisals."
+    },
+    {
+      "username": "MichaelCyger",
+      "name": "Michael Cyger",
+      "why": "DomainSherpa founder; still posts industry commentary and sale reactions (@MichaelCyger, also CygerSays)."
+    },
+    {
+      "username": "Escrow_com",
+      "name": "Escrow.com",
+      "why": "Official escrow for a large share of aftermarket domain transfers. Handle is Escrow_com (not Escrowcom)."
+    },
+    {
+      "username": "GoDaddyAuctions",
+      "name": "GoDaddy Auctions",
+      "why": "Official GoDaddy Auctions account; expired and public auction results (confirmed on GoDaddy blog)."
+    },
+    {
+      "username": "NameBio",
+      "name": "NameBio",
+      "why": "Public domain-sale database (Michael Sumner). Posts comps and sale commentary used as ground truth."
+    },
+    {
+      "username": "Afternic",
+      "name": "Afternic",
+      "why": "GoDaddy aftermarket / BIN network. Occasional sale and inventory posts."
+    },
+    {
+      "username": "Sedo",
+      "name": "Sedo",
+      "why": "Major aftermarket and brokerage; sale and auction announcements."
+    },
+    {
+      "username": "NameJet",
+      "name": "NameJet",
+      "why": "Expired / backorder auction house; closing prices are often sale-like posts."
+    },
+    {
+      "username": "NamePros",
+      "name": "NamePros",
+      "why": "Largest public domainer forum; account surfaces threads that include reported sales."
+    },
+    {
+      "username": "DomainInvesting",
+      "name": "Elliot Silver / DomainInvesting.com",
+      "why": "Long-running investor blog; frequent 'sold' / 'acquired' posts and deal commentary."
+    },
+    {
+      "username": "MorganLinton",
+      "name": "Morgan Linton",
+      "why": "Domain investor/blogger; periodic sale and portfolio posts."
+    },
+    {
+      "username": "DomainShane",
+      "name": "Shane Cultra",
+      "why": "DSAD.com / former DomainShane; active seller, often posts closed names."
+    },
+    {
+      "username": "jamesiles",
+      "name": "James Iles",
+      "why": "Afternic / aftermarket product voice; discusses platform sales and tools."
+    },
+    {
+      "username": "CygerSays",
+      "name": "Cyger Says",
+      "why": "Michael Cyger newsletter account; industry links including sale coverage."
+    },
+    {
+      "username": "InternetCommerce",
+      "name": "Internet Commerce Association",
+      "why": "Domain-investor trade group; policy plus occasional market/sale notes."
+    }
+  ]
+}

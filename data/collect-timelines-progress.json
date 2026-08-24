@@ -1,0 +1,192 @@
+{
+  "collected_at": "2026-08-15T17:38:16.000Z",
+  "new_count": 2239,
+  "total_unique": 8956,
+  "usernames_done": [
+    "DomainNews24",
+    "NameBio",
+    "FinTechNames",
+    "DomainGang",
+    "katerleonid",
+    "DomainLabs",
+    "Sedo",
+    "DInvesting",
+    "domain_raider",
+    "BridgedDomains",
+    "DNdomainname",
+    "NameHubs",
+    "domainretail",
+    "andrewrosener",
+    "DomainNameWire",
+    "DNJournal",
+    "DoctorBrandx",
+    "justdropped",
+    "SedoDaveEvanson",
+    "DropDax",
+    "ibuild_io"
+  ],
+  "usernames_paginated": 21,
+  "usernames_total": 816,
+  "errors": [],
+  "examples": [
+    "https://x.com/DomainNews24/status/2088089733981409516",
+    "https://x.com/DomainNews24/status/2087349270865383560",
+    "https://x.com/DomainNews24/status/2083010578617176148",
+    "https://x.com/DomainNews24/status/2081565989532250296",
+    "https://x.com/DomainNews24/status/2080543023860191312"
+  ],
+  "stopped": true,
+  "stop_reason": "8k unique-tweet cap reached; no more usernames started",
+  "source": "x-public",
+  "frontend": "nitter.poast.org",
+  "per_user": [
+    {
+      "username": "DomainNews24",
+      "pages": 27,
+      "items": 494,
+      "kept": 322,
+      "error": null
+    },
+    {
+      "username": "NameBio",
+      "pages": 13,
+      "items": 235,
+      "kept": 100,
+      "error": "not-found code=404"
+    },
+    {
+      "username": "FinTechNames",
+      "pages": 26,
+      "items": 501,
+      "kept": 238,
+      "error": null
+    },
+    {
+      "username": "DomainGang",
+      "pages": 15,
+      "items": 278,
+      "kept": 37,
+      "error": null
+    },
+    {
+      "username": "katerleonid",
+      "pages": 25,
+      "items": 475,
+      "kept": 98,
+      "error": null
+    },
+    {
+      "username": "DomainLabs",
+      "pages": 17,
+      "items": 319,
+      "kept": 75,
+      "error": null
+    },
+    {
+      "username": "Sedo",
+      "pages": 28,
+      "items": 554,
+      "kept": 56,
+      "error": null
+    },
+    {
+      "username": "DInvesting",
+      "pages": 28,
+      "items": 545,
+      "kept": 80,
+      "error": null
+    },
+    {
+      "username": "domain_raider",
+      "pages": 28,
+      "items": 560,
+      "kept": 491,
+      "error": null
+    },
+    {
+      "username": "BridgedDomains",
+      "pages": 3,
+      "items": 23,
+      "kept": 4,
+      "error": null
+    },
+    {
+      "username": "DNdomainname",
+      "pages": 13,
+      "items": 225,
+      "kept": 56,
+      "error": null
+    },
+    {
+      "username": "NameHubs",
+      "pages": 21,
+      "items": 393,
+      "kept": 230,
+      "error": null
+    },
+    {
+      "username": "domainretail",
+      "pages": 28,
+      "items": 550,
+      "kept": 127,
+      "error": null
+    },
+    {
+      "username": "andrewrosener",
+      "pages": 12,
+      "items": 220,
+      "kept": 4,
+      "error": null
+    },
+    {
+      "username": "DomainNameWire",
+      "pages": 28,
+      "items": 558,
+      "kept": 50,
+      "error": null
+    },
+    {
+      "username": "DNJournal",
+      "pages": 2,
+      "items": 18,
+      "kept": 1,
+      "error": null
+    },
+    {
+      "username": "DoctorBrandx",
+      "pages": 28,
+      "items": 558,
+      "kept": 62,
+      "error": null
+    },
+    {
+      "username": "justdropped",
+      "pages": 7,
+      "items": 120,
+      "kept": 105,
+      "error": null
+    },
+    {
+      "username": "SedoDaveEvanson",
+      "pages": 20,
+      "items": 50,
+      "kept": 16,
+      "error": null
+    },
+    {
+      "username": "DropDax",
+      "pages": 6,
+      "items": 101,
+      "kept": 87,
+      "error": null
+    },
+    {
+      "username": "ibuild_io",
+      "pages": 2,
+      "items": 2,
+      "kept": 0,
+      "error": null
+    }
+  ],
+  "note": "Timeline pagination stopped after cap. Records require a real /status/ id."
+}

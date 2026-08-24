@@ -1,0 +1,68 @@
+{
+  "notes": [
+    "Valid X API v2 operators only (recent-search / search/all). Web-only operators (since:, min_faves:, filter:blue_verified) are not used.",
+    "Bare $ is a cashtag operator in v2, not a dollar-sign match. Price intent uses phrases like sold for / USD / thousand, then the local parser extracts $25k etc. from text.",
+    "start_time / end_time are request params, not query operators.",
+    "from: accepts a username (or numeric user id once resolved). Collector also builds from: queries from data/accounts.json.",
+    "Recent-search query max length is 512 chars (self-serve). Keep each query well under that.",
+    "'closed' + domain is noisy (sports, real estate, shops). Kept last and marked noisy."
+  ],
+  "queries": [
+    {
+      "id": "just_sold_domain",
+      "query": "\"just sold\" (domain OR domains OR #domains OR #domain) -is:retweet lang:en",
+      "why": "Classic domainer announcement phrasing."
+    },
+    {
+      "id": "sold_for_tlds",
+      "query": "\"sold for\" (.com OR .ai OR .io OR #domains OR domain) -is:retweet lang:en",
+      "why": "Price + TLD / industry tag. Parser pulls the USD amount from text."
+    },
+    {
+      "id": "domain_sold_usd",
+      "query": "\"domain sold\" (USD OR thousand OR \"sold for\") -is:retweet lang:en",
+      "why": "Sale language plus currency words. Avoids the v2 cashtag operator."
+    },
+    {
+      "id": "sold_com_price",
+      "query": "sold (.com OR .ai OR .io OR .net OR .org) (USD OR thousand OR k) -is:retweet lang:en",
+      "why": "Broader sold + TLD + price-ish token."
+    },
+    {
+      "id": "just_closed_domain",
+      "query": "\"just closed\" (domain OR .com OR #domains) -is:retweet lang:en",
+      "why": "Brokers often say closed rather than sold."
+    },
+    {
+      "id": "closed_domain_noisy",
+      "query": "closed domain (USD OR thousand OR \"sold for\" OR .com) -is:retweet lang:en",
+      "why": "User-requested 'closed' + domain + price. Noisy \u2014 sports/shops/leases. Parser + later review.",
+      "noisy": true
+    },
+    {
+      "id": "namebio_sale",
+      "query": "(\"namebio\" OR NameBio) (sold OR sale OR \"sold for\") -is:retweet lang:en",
+      "why": "People cite NameBio comps when announcing or discussing sales."
+    },
+    {
+      "id": "escrow_domain_sold",
+      "query": "(escrow OR \"escrow.com\") (\"domain sold\" OR \"sold the domain\" OR \"just sold\") -is:retweet lang:en",
+      "why": "High-value transfers often mention escrow."
+    },
+    {
+      "id": "acquired_domain",
+      "query": "(\"acquired\" OR purchased) (domain OR .com OR .ai) (USD OR thousand OR \"sold for\") -is:retweet lang:en",
+      "why": "Buyer-side announcements."
+    },
+    {
+      "id": "from_industry_sales",
+      "query": "(from:DomainNameWire OR from:DNJournal OR from:NameBio OR from:DomainSherpa OR from:MichaelCyger OR from:AndrewAllemann) (sold OR sale OR closed OR \"sold for\") -is:retweet lang:en",
+      "why": "Timelines of core industry accounts, sale-filtered. Usernames from accounts.json."
+    },
+    {
+      "id": "from_marketplaces",
+      "query": "(from:GoDaddyAuctions OR from:Escrow_com OR from:Afternic OR from:Sedo OR from:NameJet) (sold OR sale OR closed OR auction) -is:retweet lang:en",
+      "why": "Marketplace / escrow accounts that post completed sales or auction results."
+    }
+  ]
+}

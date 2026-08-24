@@ -1,0 +1,144 @@
+{
+  "source": "x-public",
+  "collected_at": "2026-08-15T16:43:58.000Z",
+  "frontend_worked": "nitter.poast.org",
+  "frontends_tried": {
+    "xcancel.com": "blocked \u2014 CAP/WASM antibot + image captcha; RSS requires reader whitelist",
+    "nitter.poast.org": "worked after public JS proof-of-work cookie; later 429 on some cursors",
+    "nitter.net": "TLS unexpected EOF",
+    "nitter.tiekoetter.com": "bot check page",
+    "nitter.catsarch.com": "HTTP 403",
+    "lightbrd.com": "Cloudflare challenge",
+    "nitter.space": "Cloudflare challenge",
+    "nitter.privacyredirect.com": "TLS unexpected EOF",
+    "nitter.kareem.one": "Cloudflare challenge",
+    "nitter.cz": "bot check page"
+  },
+  "html_pages_saved": 118,
+  "html_pages_with_tweets": 106,
+  "x_public_sales": 870,
+  "x_public_premium": 377,
+  "all_have_status_id": true,
+  "all_have_x_com_url": true,
+  "unique_usernames": 254,
+  "premium_tiers": {
+    "50k": 265,
+    "null": 493,
+    "20k": 70,
+    "30k": 42
+  },
+  "with_parsed_domain": 398,
+  "with_parsed_price": 784,
+  "top_usernames": [
+    [
+      "DomainNews24",
+      103
+    ],
+    [
+      "NameBio",
+      86
+    ],
+    [
+      "DomainGang",
+      46
+    ],
+    [
+      "katerleonid",
+      42
+    ],
+    [
+      "DomainLabs",
+      32
+    ],
+    [
+      "FinTechNames",
+      30
+    ],
+    [
+      "DomainNameWire",
+      19
+    ],
+    [
+      "NameHubs",
+      17
+    ],
+    [
+      "domainretail",
+      17
+    ],
+    [
+      "DNdomainname",
+      15
+    ],
+    [
+      "andrewrosener",
+      14
+    ],
+    [
+      "domain_raider",
+      13
+    ]
+  ],
+  "queries": [
+    [
+      "soldforcom",
+      236
+    ],
+    [
+      "justsoldcom",
+      206
+    ],
+    [
+      "soldfor",
+      132
+    ],
+    [
+      "namebio",
+      90
+    ],
+    [
+      "hashdomains",
+      64
+    ],
+    [
+      "fromnamebio",
+      60
+    ],
+    [
+      "escrow",
+      24
+    ],
+    [
+      "justclosed",
+      20
+    ],
+    [
+      "fromdnw",
+      16
+    ],
+    [
+      "fromrosener",
+      14
+    ],
+    [
+      "p_DomainNameWire",
+      5
+    ],
+    [
+      "p_ishmilly",
+      2
+    ],
+    [
+      "poast",
+      1
+    ]
+  ],
+  "blockers": [
+    "xcancel.com captcha/antibot (HTML samples in data/raw/)",
+    "xcancel RSS: reader not whitelisted",
+    "nitter.poast.org HTTP 429 after ~15-20 search pages on some queries",
+    "Several other Nitter hosts: Cloudflare/TLS/bot-check",
+    "Official X API / x.com not used (as requested)"
+  ],
+  "note": "Every x-public record has url=https://x.com/{user}/status/{id}. Posts without a status id were skipped. Not invented."
+}

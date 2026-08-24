@@ -1,0 +1,103 @@
+{
+  "updated_at": "2026-08-15T17:38:36.000Z",
+  "frontend": "nitter.poast.org",
+  "source": "x-public",
+  "phase": "stopped",
+  "stop_reason": "parent steering: target lowered to 8k; already above; do not paginate more",
+  "new_unique": 1591,
+  "total_unique": 9007,
+  "start_unique_user": 1055,
+  "premium_new": 530,
+  "date_sliced_sales_rows": 1591,
+  "queries": [
+    "just sold domain",
+    "sold for .com",
+    "sold for .ai",
+    "just sold .io",
+    "sold via Sedo",
+    "sold via Afternic",
+    "sold via Atom",
+    "sold via Spaceship",
+    "\"just sold\" #domains",
+    "NameBio sold",
+    "closed a domain",
+    "sold my domain",
+    "BIN sold .com"
+  ],
+  "windows_done": [
+    "2018-01-01..2018-07-01",
+    "2018-07-01..2019-01-01",
+    "2019-01-01..2019-07-01",
+    "2019-07-01..2020-01-01"
+  ],
+  "jobs_ok": 31,
+  "jobs_429": 11,
+  "pages_ok": 183,
+  "pages_429": 11,
+  "pow_solves": 1,
+  "examples": [
+    {
+      "url": "https://x.com/NameBio/status/1013406876761899009",
+      "username": "NameBio",
+      "domains": [
+        "namebio.com"
+      ],
+      "price_usd": 3800,
+      "price_raw": "$3,800",
+      "created_at": "2018-07-01T13:00:00.000Z",
+      "query": "sold for .com [2018-01-01..2018-07-01)",
+      "text": "Top sale of the day goes to @GoDaddy - rawfish(.)com sold for $3,800. Daily market report: namebio.com/blog/daily-marke\u2026"
+    },
+    {
+      "url": "https://x.com/domainhunter/status/1013045328218677248",
+      "username": "domainhunter",
+      "domains": [
+        "8437.com",
+        "namebio.com"
+      ],
+      "price_usd": 172000,
+      "price_raw": "$172k",
+      "created_at": "2018-06-30T13:03:00.000Z",
+      "query": "sold for .com [2018-01-01..2018-07-01)",
+      "text": "Domaining: $172k in Sales on June 29th \u2013 8437.com sold for $16,000 \u2013 Daily Market Report NameBio.com : The top sale of the day was 8437.com which sold for $16,000 at NameJet. NameB"
+    },
+    {
+      "url": "https://x.com/NameBio/status/1013044489374531584",
+      "username": "NameBio",
+      "domains": [
+        "namebio.com"
+      ],
+      "price_usd": 16000,
+      "price_raw": "$16,000",
+      "created_at": "2018-06-30T13:00:00.000Z",
+      "query": "sold for .com [2018-01-01..2018-07-01)",
+      "text": "Top sale of the day goes to @NameJet - 8437(.)com sold for $16,000. Daily market report: namebio.com/blog/daily-marke\u2026"
+    },
+    {
+      "url": "https://x.com/NameBio/status/1012319711500079104",
+      "username": "NameBio",
+      "domains": [
+        "namebio.com"
+      ],
+      "price_usd": 86892,
+      "price_raw": "$86,892",
+      "created_at": "2018-06-28T13:00:00.000Z",
+      "query": "sold for .com [2018-01-01..2018-07-01)",
+      "text": "Top sale of the day goes to @SEDO - koffer(.)com sold for $86,892. Daily market report: namebio.com/blog/daily-marke\u2026"
+    },
+    {
+      "url": "https://x.com/US99Chicago/status/1012153828513386496",
+      "username": "US99Chicago",
+      "domains": [
+        "us99.com",
+        "us99.radio.com"
+      ],
+      "price_usd": 1350,
+      "price_raw": "$1350",
+      "created_at": "2018-06-28T02:00:00.000Z",
+      "query": "sold for .com [2018-01-01..2018-07-01)",
+      "text": "#TaylorSwift says she grew up on a farm where they sold what type of tree?!?! \ud83c\udf33  Mornings@US99.com to play for a RECORD amount of $1350 tomorrow at 7:40am!   - @StylzandRoman    us"
+    }
+  ],
+  "note": "Stopped on parent request. Date-sliced nitter.poast.org search. Every url is https://x.com/{user}/status/{id}. Not invented. Not official X API."
+}

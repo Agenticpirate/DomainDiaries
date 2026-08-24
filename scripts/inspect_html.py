@@ -1,0 +1,15 @@
+from pathlib import Path
+import re
+t=Path("/workspace/domain-diaries/data/raw/poast-ok.html").read_text(errors="replace")
+print("len", len(t))
+print("timeline-item", t.count("timeline-item"))
+print("tweet-content", t.count("tweet-content"))
+print("status", t.count("/status/"))
+print("show-more", t.count("show-more"))
+print("cursor", t.count("cursor"))
+ids=re.findall(r"/([A-Za-z0-9_]+)/status/(\d+)", t)
+print("id_pairs", len(ids), "unique", len(set(ids)))
+print("first5", ids[:5])
+m=re.search(r"show-more.*?href=\"([^\"]+)\"", t, re.S)
+print("more", m.group(1) if m else None)
+print("title", (re.search(r"<title>([^<]+)", t).group(1) if re.search(r"<title>([^<]+)", t) else "?"))
