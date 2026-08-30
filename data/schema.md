@@ -17,3 +17,20 @@ One JSON object per line in `sales.jsonl` and `premium.jsonl`.
 | `collected_at` | string | ISO-8601 UTC |
 
 `premium.jsonl` is `premium_tier != null`.
+
+## Tweets (`tweets.jsonl`)
+
+One JSON object per sale tweet. `url` is always `https://x.com/{username}/status/{id}`.
+
+Added 2026-08-31:
+
+| Field | Type | Notes |
+|---|---|---|
+| `poster_kind` | `"individual"` \| `"company"` | Company = marketplace, escrow, registrar, news, or brand database account. From 2026-08-31, new collection prefers `individual`. |
+
+Derived files:
+
+- `tweets-individuals.jsonl` — `poster_kind=individual`
+- `tweets-company.jsonl` — `poster_kind=company`
+- `company-accounts.json` — denylist handles
+
