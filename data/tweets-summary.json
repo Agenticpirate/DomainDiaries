@@ -1,7 +1,7 @@
 {
-  "unique_status_approx": 15968,
-  "tweets_jsonl": 14976,
-  "individuals": 7765,
+  "unique_status_approx": 15970,
+  "tweets_jsonl": 14978,
+  "individuals": 7767,
   "company": 8203,
   "window_2025_2026": 10938,
   "note": "poster_kind split; new collection prefers individuals"

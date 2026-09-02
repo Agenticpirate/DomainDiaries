@@ -1,0 +1,95 @@
+{
+  "hunt": "sep2-2026-09-02",
+  "source": "web-mention",
+  "collected_at": "2026-09-02T02:02:23.000Z",
+  "new_unique_individual_ids": 2,
+  "individuals_total_before": 7765,
+  "individuals_total_after": 7767,
+  "tweets_appended": 2,
+  "sales_appended": 2,
+  "premium_appended": 2,
+  "tweets_2025_2026_appended": 0,
+  "top_new_usernames": [
+    [
+      "DomainKing",
+      1
+    ],
+    [
+      "swethayenugula",
+      1
+    ]
+  ],
+  "new_by_host": {
+    "domainincite.com": 1,
+    "tldinvestors.com": 1
+  },
+  "sample_new_urls": [
+    "https://x.com/DomainKing/status/1407740170036711425",
+    "https://x.com/swethayenugula/status/2094776563904688448"
+  ],
+  "sample_pages": [
+    "https://domainincite.com/26812-schwartz-says-he-sold-ass-com-for-over-6-million",
+    "https://tldinvestors.com/2026/09/predict-xyz-sells-for-148795.html"
+  ],
+  "new_records": [
+    {
+      "id": "1407740170036711425",
+      "url": "https://x.com/DomainKing/status/1407740170036711425",
+      "username": "DomainKing",
+      "created_at": "2021-06-23T00:00:00.000Z",
+      "price_usd": 6000000,
+      "domains": [],
+      "source_page": "https://domainincite.com/26812-schwartz-says-he-sold-ass-com-for-over-6-million"
+    },
+    {
+      "id": "2094776563904688448",
+      "url": "https://x.com/swethayenugula/status/2094776563904688448",
+      "username": "swethayenugula",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "price_usd": 148795,
+      "domains": [
+        "predict.xyz"
+      ],
+      "source_page": "https://tldinvestors.com/2026/09/predict-xyz-sells-for-148795.html"
+    }
+  ],
+  "tried": {
+    "ricksblog.com": "1526-post sitemap; fetched 244 posts 2018-2023 + sale-titled older. 243 ok, 0 twitter-tweet embeds. Raw DomainKing photo hrefs lacked sale text.",
+    "domainincite.com": "151 sale-ish posts. 4 pages with embeds; 1 new DomainKing Ass.com tweet. Others nonsale (Musk/Bieber/registry).",
+    "tldinvestors.com recent": "RSS since Aug 30. New 2026-09-01 Predict.xyz post -> swethayenugula tweet (title-enriched domain/price). Older feed embeds already known or company (@domain, Afternic, Qualitynames).",
+    "domainblog.com recent": "Sep 1 KLO.com 0 embeds; Hear.com/Tarro.com embeds already known (rundns).",
+    "thedomains.com / domaingang.com / domaininvesting.com recent": "Fetched latest posts; company or 0 sale-like individual embeds (DollyParton nonsale; lumis_com company).",
+    "domainmondo.com": "Atom feeds + 28 sale-ish posts; 100+ embeds, 0 sale-like individual tweets (ICANN/news).",
+    "domainersmagazine.com": "1068 sitemap URLs; many 404 without www; live posts have 0 twitter-tweet embeds (aggregator).",
+    "domainnews.com": "599 sale-ish URLs, 2007-era news, 0 embeds.",
+    "defining.com": "15 Kate Buckley posts, 0 embeds.",
+    "domainingafrica.com": "27 sale-ish, 0 embeds.",
+    "internetcommerce.org": "16 sale-ish, 0 embeds.",
+    "domainholdings.com": "29 sale-ish, 0 embeds.",
+    "morganlinton.com": "Live is personal lab notes (no blog). Archive.org sale-ish snapshots fetched, 0 new embeds.",
+    "web.archive.org CDX": "ricksblog, morganlinton, domainersmagazine, domainking, domainmondo *sold* (empty), jamesnames *sold* (empty).",
+    "WebSearch": "twitter-tweet sold domain; sold my domain 2025 2026; medium.com status URLs; InstantDomainSearch; mike mann/kate buckley/andrew rosener on new sites.",
+    "InstantDomainSearch": "No x.com status URL embeds (aftermarket search tool).",
+    "medium.com": "No usable individual domain-sale tweet embeds found.",
+    "reddit r/Domains": "login wall / 429.",
+    "domainlore.uk / domainking.com / justdropped / hashdomains": "landers or auction UI, no tweet embeds."
+  },
+  "failures": {
+    "ricksblog.com": "0 twitter-tweet blockquotes on 243 live posts; photo-only twitter.com/status hrefs without sale text",
+    "domainersmagazine.com": "no embeds on live posts; many sitemap permalinks 404",
+    "domainnews.com": "0 embeds",
+    "dnjournal.com": "HTTP 403 on archive/lowdown and domainsales (not retried beyond probe)",
+    "jamesnames.com": "not retried (live HTTP 202 captcha)",
+    "namepros.com": "403 not retried",
+    "x.com HTML / Nitter / X API": "skipped per rules",
+    "extract_raw_status": "one Uber IPO false positive collected then deleted"
+  },
+  "notes": [
+    "Only real x.com/twitter.com /status/ IDs from public blog embeds. No invented IDs. No GitHub push.",
+    "Skipped company/marketplace/news handles via company-accounts.json + extras (DomainKing is individual).",
+    "Did not scrape x.com HTML, Nitter, xcancel, poast, or official X API.",
+    "Incremental flush enabled on collect_individuals.py.",
+    "Swetha Predict.xyz tweet text had Sold-via but t.co domain; domain/price taken from source page title.",
+    "Did not recrawl full tldinvestors/domainblog/thedomains/domaingang archives; only posts newer than 2026-08-30 harvest plus new sites."
+  ]
+}
