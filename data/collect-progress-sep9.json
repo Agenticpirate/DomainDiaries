@@ -1,0 +1,126 @@
+{
+  "hunt": "sep9-2026-09-09",
+  "source": "web-mention",
+  "collected_at": "2026-09-09T16:50:57.000Z",
+  "new_unique_individual_ids": 1,
+  "individuals_total_before": 7767,
+  "individuals_total_after": 7768,
+  "tweets_appended": 1,
+  "sales_appended": 1,
+  "premium_appended": 1,
+  "tweets_2025_2026_appended": 0,
+  "top_new_usernames": [
+    [
+      "GhostFireAI",
+      1
+    ]
+  ],
+  "new_by_host": {
+    "tldinvestors.com": 1
+  },
+  "sample_new_urls": [
+    "https://x.com/GhostFireAI/status/2095573939854397730"
+  ],
+  "sample_pages": [
+    "https://tldinvestors.com/2026/09/commerceai-ai-sells-for-35000-a-look-at-the-keywordai-ai-play.html"
+  ],
+  "new_records": [
+    {
+      "id": "2095573939854397730",
+      "url": "https://x.com/GhostFireAI/status/2095573939854397730",
+      "username": "GhostFireAI",
+      "created_at": "2026-09-03T00:00:00.000Z",
+      "price_usd": 35000,
+      "domains": [
+        "commerceai.ai"
+      ],
+      "source_page": "https://tldinvestors.com/2026/09/commerceai-ai-sells-for-35000-a-look-at-the-keywordai-ai-play.html"
+    }
+  ],
+  "totals_after": {
+    "tweets-individuals.jsonl": 7768,
+    "tweets.jsonl": 14979,
+    "sales.jsonl": 36783,
+    "premium.jsonl": 12087
+  },
+  "tried": {
+    "tldinvestors.com": "feed/ + Sep posts. NEW: CommerceAi.ai GhostFireAI tweet 2095573939854397730 ($35k). Predict.xyz already known (swethayenugula). GNAME promo = @gnamedotcom company skipped. James Booth Orchestra/TrueScan embeds are @domain company (already known).",
+    "domainblog.com": "RSS since Aug30: H2.com Sedo week, BlockVerse.com, KLO.com Sedo week. 0 twitter-tweet embeds on those posts (BlockVerse NamePros-only).",
+    "thedomains.com": "Sedo weekly H2/KLO + nameDesk TLD explainer. 0 embeds.",
+    "domaingang.com": "15+ Sep posts (DropCatch, Sedo, UDRP, Lyzr $50k acquire, Escrow IPv4). 0 sale-like individual embeds. equalearthmap had namecheapceo123 (denylist) non-sale.",
+    "domaininvesting.com": "Cyber.com 7-figure: embed is Sedo broker @MrPremiumDotCom (fails sale-like keep; marketplace broker). LeanneMac status href only (no blockquote sale text). careful-what-you-share: @snagged acquisition story, no twitter-tweet embed. lumis_com company on category page.",
+    "domainincite.com": "Recent news (phone TLD, AI slop, Team Internet, Newfold, DropCatch, Helsinki). Ass.com DomainKing already known. 0 new sale embeds.",
+    "domainnamewire.com": "Sep 3–9 posts (end-user Sedo list, Aruba TLDs, ShortDot, auDA, RDNH). 0 twitter-tweet embeds.",
+    "dnjournal.com": "RSS 200 but archive pages historically 403; not retried beyond feed probe.",
+    "onlinedomain.com": "Mike Mann monthly posts (Apr and earlier). 0 embeds on sample. No Sep 2026 posts.",
+    "defining.com": "Feed newest May 2026; 0 sale embeds.",
+    "domainmondo.com": "Atom feed stale / no 2026-09 items in feed window.",
+    "ricksblog.com": "Feed empty of recent sale embeds (known dead end).",
+    "dsad.com": "Sep 4 auction recap: 0 embeds.",
+    "vname.com": "CommerceAi Chinese rewrite: 0 embeds.",
+    "WebSearch": "sold domain September 2026; CommerceAi/Predict/BlockVerse/Cyber.com; Hand Registered / Sold via queries."
+  },
+  "failures": {
+    "tldinvestors.com/feeds/posts/default": "404 (use /feed/ instead)",
+    "jamesnames.com": "not retried (known captcha)",
+    "namepros.com": "403 not retried (BlockVerse sale reported there without public tweet embed on blogs)",
+    "dnjournal.com archive": "historically 403; skipped deep crawl",
+    "domainshades.com / domaining.com feed": "unreachable or 403",
+    "x.com HTML / Nitter / X API": "skipped per rules",
+    "MrPremiumDotCom Cyber.com": "embed present but Sedo broker announcement; keep_sale=False; not individual seller sale tweet",
+    "BlockVerse.com": "NamePros report only; 0 twitter embeds on domainblog"
+  },
+  "skipped_seen_embeds": [
+    {
+      "username": "gnamedotcom",
+      "id": "2094707977639121164",
+      "reason": "company/marketplace"
+    },
+    {
+      "username": "domain",
+      "id": "2093538841932308574",
+      "reason": "company Domain.com; known"
+    },
+    {
+      "username": "domain",
+      "id": "2090583254059606116",
+      "reason": "company Domain.com; known"
+    },
+    {
+      "username": "DomainKing",
+      "id": "1407740170036711425",
+      "reason": "already collected Sep2"
+    },
+    {
+      "username": "swethayenugula",
+      "id": "2094776563904688448",
+      "reason": "already collected Sep2"
+    },
+    {
+      "username": "MrPremiumDotCom",
+      "id": "2097040097506214114",
+      "reason": "Sedo broker; nonsale keep_sale"
+    },
+    {
+      "username": "afternic",
+      "id": "2092967873031356502",
+      "reason": "company"
+    },
+    {
+      "username": "rundns",
+      "reason": "Aug posts already known"
+    },
+    {
+      "username": "namecheapceo123",
+      "reason": "denylist"
+    }
+  ],
+  "notes": [
+    "Only real x.com/twitter.com /status/ IDs from public blog embeds. No invented IDs. No GitHub push.",
+    "Skipped company/marketplace/news handles via company-accounts.json + extras (DomainKing kept as individual).",
+    "Did not scrape x.com HTML, Nitter, xcancel, poast, or official X API.",
+    "GhostFireAI CommerceAi.ai: domain enriched from source page title (tweet had t.co link only); price $35,000 from embed; premium_tier 30k.",
+    "created_at Sep 3 2026 -> NOT written to tweets-2025-2026.jsonl (window ends 2026-08-15).",
+    "Priority focus: posts newer than 2026-09-02 publish / since Aug 30 harvest."
+  ]
+}
