@@ -12,7 +12,17 @@ Wall of fame for domainers: sale tweets with backlinks to the original posts on 
 | `data/premium.jsonl` | Rows with `price_usd >= 20000` (`20k` / `30k` / `50k`) |
 | `data/summary.json` | Collect stats |
 
-Each tweet card on the future site should use `url` as the backlink to the original post.
+Each tweet card uses `url` as the backlink to the original post.
+
+## Site
+
+Wall of fame for the 2025 → 15 Aug 2026 tweet set:
+
+```bash
+python3 server.py
+```
+
+Then open `http://127.0.0.1:3000`. Optional: `--port 8080`.
 
 ## Counts (as of 2026-08-15)
 
