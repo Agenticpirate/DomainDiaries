@@ -1,10 +1,10 @@
 {
-  "unique_status_approx": 16003,
-  "tweets_jsonl": 15011,
-  "individuals": 7800,
+  "unique_status_approx": 16013,
+  "tweets_jsonl": 15021,
+  "individuals": 7810,
   "company": 8203,
   "window_2025_2026": 10938,
   "tools": 95,
-  "note": "tools catalog 95; +3 individuals from domaininvesting; more scrape restarting",
-  "last_hunt": "2026-09-19-tools-and-partial"
+  "note": "tools 95; individuals 7810 after more-sep19 +10",
+  "last_hunt": "2026-09-19-more-sep19"
 }

@@ -1,0 +1,182 @@
+{
+  "hunt": "more-sep19-restart-2026-09-19",
+  "source": "web-mention",
+  "status": "complete",
+  "collected_at": "2026-09-19T11:27:16.000Z",
+  "new_unique_individual_ids": 10,
+  "individuals_total_before": 7800,
+  "individuals_total_after": 7810,
+  "tweets_total_after": 15021,
+  "tweets_appended": 10,
+  "sales_appended": 10,
+  "premium_appended": 9,
+  "tweets_2025_2026_appended": 0,
+  "new_by_host": {
+    "domaininvesting.com": 10
+  },
+  "top_new_usernames": [
+    [
+      "SedoDaveEvanson",
+      3
+    ],
+    [
+      "mikemanndotcom",
+      3
+    ],
+    [
+      "kwkuh",
+      1
+    ],
+    [
+      "punycode_com",
+      1
+    ],
+    [
+      "FrankTillmanns",
+      1
+    ],
+    [
+      "MrPremiumDotCom",
+      1
+    ]
+  ],
+  "sample_new_urls": [
+    "https://x.com/SedoDaveEvanson/status/467406751705624577",
+    "https://x.com/kwkuh/status/1445323529960890369",
+    "https://x.com/mikemanndotcom/status/544888397731725312",
+    "https://x.com/mikemanndotcom/status/651762872029065216",
+    "https://x.com/punycode_com/status/907669007758774272",
+    "https://x.com/SedoDaveEvanson/status/880849533596512256",
+    "https://x.com/mikemanndotcom/status/905477345280233473",
+    "https://x.com/SedoDaveEvanson/status/933366183516168194",
+    "https://x.com/FrankTillmanns/status/960515559262736384",
+    "https://x.com/MrPremiumDotCom/status/2097040097506214114"
+  ],
+  "sample_pages": [
+    "https://domaininvesting.com/dave-evanson-reports-6-figure-sale-vitaminc-com/",
+    "https://domaininvesting.com/meta-so-sold-for-149000/",
+    "https://domaininvesting.com/hueston-com-big-flip-mike-mann/",
+    "https://domaininvesting.com/mike-mann-reports-aux-com-sale/",
+    "https://domaininvesting.com/com-acquired-by-gregg-ostrick-for-11201/",
+    "https://domaininvesting.com/print-com-sell-via-sedo/",
+    "https://domaininvesting.com/mike-manns-big-investment-paying-off/",
+    "https://domaininvesting.com/spend-com-sold-via-sedo-275000/",
+    "https://domaininvesting.com/dax-com-sold-via-sedo-500000/",
+    "https://domaininvesting.com/cyber-com-sold-for-7-figures-via-sedo/"
+  ],
+  "samples": [
+    {
+      "id": "467406751705624577",
+      "username": "SedoDaveEvanson",
+      "price_usd": 104000,
+      "domains": [
+        "vitaminc.com"
+      ],
+      "text": "Just sold VitaminC(.)com for $104,000!! Congrats to buyer and seller!!",
+      "url": "https://x.com/SedoDaveEvanson/status/467406751705624577",
+      "source_page": "https://domaininvesting.com/dave-evanson-reports-6-figure-sale-vitaminc-com/"
+    },
+    {
+      "id": "1445323529960890369",
+      "username": "kwkuh",
+      "price_usd": 149000,
+      "domains": [
+        "meta.so"
+      ],
+      "text": "Meta•so sells for $149,000 @hypernames Congrats Nikul!🤯 #dotso https://t.co/GYADjkfAso",
+      "url": "https://x.com/kwkuh/status/1445323529960890369",
+      "source_page": "https://domaininvesting.com/meta-so-sold-for-149000/"
+    },
+    {
+      "id": "544888397731725312",
+      "username": "mikemanndotcom",
+      "price_usd": 25000,
+      "domains": [
+        "hueston.com"
+      ],
+      "text": "http://t.co/HOxJJmRNBz , we dont have a problem, sold $25,000, purchased 2011-03-19 $69.",
+      "url": "https://x.com/mikemanndotcom/status/544888397731725312",
+      "source_page": "https://domaininvesting.com/hueston-com-big-flip-mike-mann/"
+    },
+    {
+      "id": "651762872029065216",
+      "username": "mikemanndotcom",
+      "price_usd": 100000,
+      "domains": [
+        "aux.com"
+      ],
+      "text": "An auxiliary career deal-making. Sold http://t.co/kL6dvfIzax $100,000. Purchased cheap, long ago.",
+      "url": "https://x.com/mikemanndotcom/status/651762872029065216",
+      "source_page": "https://domaininvesting.com/mike-mann-reports-aux-com-sale/"
+    },
+    {
+      "id": "907669007758774272",
+      "username": "punycode_com",
+      "price_usd": 11201,
+      "domains": [],
+      "text": "https://t.co/ID9WNG0Pkd sold ☯.com for $11,201 today, the 2nd highest price ever paid for emoji domain #emojidomains #DomainNames #domaining pic.twitter.com/2ZQ",
+      "url": "https://x.com/punycode_com/status/907669007758774272",
+      "source_page": "https://domaininvesting.com/com-acquired-by-gregg-ostrick-for-11201/"
+    },
+    {
+      "id": "880849533596512256",
+      "username": "SedoDaveEvanson",
+      "price_usd": 2000000,
+      "domains": [
+        "print.com"
+      ],
+      "text": "Just co-brokered $2,000,000 USD (approximate) confidential sale with Sedo’s Albert Schimmel & Liane van Hoorn. Congrats to buyer and seller!",
+      "url": "https://x.com/SedoDaveEvanson/status/880849533596512256",
+      "source_page": "https://domaininvesting.com/print-com-sell-via-sedo/"
+    },
+    {
+      "id": "905477345280233473",
+      "username": "mikemanndotcom",
+      "price_usd": 30000,
+      "domains": [],
+      "text": "Sold https://t.co/0kPLpPfrbt $30,000. Purch 4/17/12 $8 jptm@jetskithehighway.org",
+      "url": "https://x.com/mikemanndotcom/status/905477345280233473",
+      "source_page": "https://domaininvesting.com/mike-manns-big-investment-paying-off/"
+    },
+    {
+      "id": "933366183516168194",
+      "username": "SedoDaveEvanson",
+      "price_usd": 275000,
+      "domains": [
+        "spend.com"
+      ],
+      "text": "Just sold spend .com for $275,000 USD!! Congrats to buyer and seller!!",
+      "url": "https://x.com/SedoDaveEvanson/status/933366183516168194",
+      "source_page": "https://domaininvesting.com/spend-com-sold-via-sedo-275000/"
+    },
+    {
+      "id": "960515559262736384",
+      "username": "FrankTillmanns",
+      "price_usd": 500000,
+      "domains": [
+        "dax.com"
+      ],
+      "text": "Just sold https://t.co/EQSjgJIyta for $500,000 together with my colleague Hao! Congrats to both Buyer an Seller! #Sedo #DomainSales",
+      "url": "https://x.com/FrankTillmanns/status/960515559262736384",
+      "source_page": "https://domaininvesting.com/dax-com-sold-via-sedo-500000/"
+    },
+    {
+      "id": "2097040097506214114",
+      "username": "MrPremiumDotCom",
+      "price_usd": null,
+      "domains": [
+        "cyber.com"
+      ],
+      "text": "CYBER•COM SELLS FOR 7-FIGURES By “Mr. Premium” Mark Ghoriafi Sedo’s Premium Domain Broker.",
+      "url": "https://x.com/MrPremiumDotCom/status/2097040097506214114",
+      "source_page": "https://domaininvesting.com/cyber-com-sold-for-7-figures-via-sedo/"
+    }
+  ],
+  "notes": [
+    "Beyond afternoon +3 (already in 7800). This hunt NEW count is beyond 7800.",
+    "Only twitter-tweet blockquotes with real /status/ IDs (wave2+). Wave1 false positives from bare links removed.",
+    "Kept SedoDaveEvanson / DomainKing / MrPremiumDotCom / FrankTillmanns as individual brokers.",
+    "Skipped company denylist + DotWeekly news. No x.com HTML/Nitter/X API. No GitHub push.",
+    "Sources: DI older leftover sitemaps, tldinvestors/domainblog/thedomains/dsad leftovers, RSS since Sep18, WebSearch leads."
+  ]
+}
