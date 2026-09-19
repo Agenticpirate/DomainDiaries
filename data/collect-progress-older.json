@@ -1,0 +1,154 @@
+{
+  "hunt": "older-2018-2024-restart-2026-09-19",
+  "source": "web-mention",
+  "status": "complete",
+  "collected_at": "2026-09-19T04:57:55.000Z",
+  "individuals_total_before": 7770,
+  "individuals_total_after": 7797,
+  "new_unique_individual_ids": 27,
+  "tweets_appended": 27,
+  "sales_appended": 27,
+  "premium_appended": 15,
+  "tweets_2025_2026_appended": 0,
+  "year_breakdown": {
+    "2018": 4,
+    "2019": 2,
+    "2020": 4,
+    "2021": 6,
+    "2022": 3,
+    "2023": 4,
+    "2024": 3,
+    "unknown": 1
+  },
+  "top_new_usernames": [
+    [
+      "mikemanndotcom",
+      4
+    ],
+    [
+      "DotWeekly",
+      3
+    ],
+    [
+      "DomainKing",
+      2
+    ],
+    [
+      "doronvermaat",
+      2
+    ],
+    [
+      "andrewrosener",
+      2
+    ],
+    [
+      "DNBX_com",
+      1
+    ],
+    [
+      "katebuckley1",
+      1
+    ],
+    [
+      "alex_dreyfus",
+      1
+    ],
+    [
+      "DNYuan",
+      1
+    ],
+    [
+      "Syedmairaj4",
+      1
+    ],
+    [
+      "bogdan_vovchuk",
+      1
+    ],
+    [
+      "ppcbz",
+      1
+    ],
+    [
+      "drewwash",
+      1
+    ],
+    [
+      "steventey",
+      1
+    ],
+    [
+      "ronyfadel",
+      1
+    ],
+    [
+      "dGenNetwork",
+      1
+    ],
+    [
+      "WorldEmojiBrand",
+      1
+    ],
+    [
+      "WeBrokerVC",
+      1
+    ],
+    [
+      "ca98am79",
+      1
+    ]
+  ],
+  "new_by_host": {
+    "jamesnames.com": 7,
+    "domainblog.com": 5,
+    "tldinvestors.com": 6,
+    "thedomains.com": 9
+  },
+  "sample_new_urls": [
+    "https://x.com/DomainKing/status/1341007312484503552",
+    "https://x.com/doronvermaat/status/1504436389626232837",
+    "https://x.com/andrewrosener/status/1307371698249969667",
+    "https://x.com/DNBX_com/status/1557100035396882434",
+    "https://x.com/katebuckley1/status/966371401119678464",
+    "https://x.com/mikemanndotcom/status/1318588051124269057",
+    "https://x.com/mikemanndotcom/status/982305643527716865",
+    "https://x.com/mikemanndotcom/status/982365891542347776",
+    "https://x.com/doronvermaat/status/1105347218150612992",
+    "https://x.com/alex_dreyfus/status/1398171802619240448",
+    "https://x.com/DNYuan/status/1453536410909089796",
+    "https://x.com/Syedmairaj4/status/1666035714755010561",
+    "https://x.com/DotWeekly/status/1646220743078821888",
+    "https://x.com/bogdan_vovchuk/status/1831759975527674013",
+    "https://x.com/ppcbz/status/1227196054384324608"
+  ],
+  "sample_pages": [
+    "https://jamesnames.com/2020/12/rick-schwartz-confirms-gobet-com-sold-for-935000-in-total/",
+    "https://jamesnames.com/2022/03/eftys-doron-vermaat-sells-seal-io-for-60000/",
+    "https://jamesnames.com/2021/02/andrew-rosener-reports-sale-of-nft-com-on-twitter/",
+    "https://www.domainblog.com/2022/08/10/keeta-com-from-279-to-25000/",
+    "https://tldinvestors.com/2018/02/buckley-media-group-sells-inspection-com-for-335000.html",
+    "https://jamesnames.com/2020/10/mike-mann-announces-94888-sale-of-lightrock-com/",
+    "https://www.thedomains.com/2018/04/09/mike-mann-sells-two-names-he-held-for-13-years-for-73500-total/",
+    "https://www.thedomains.com/2018/04/09/mike-mann-sells-two-names-he-held-for-13-years-for-73500-total/",
+    "https://www.thedomains.com/2019/04/15/close-io-acquires-close-com/",
+    "https://tldinvestors.com/2021/05/fantokens-com-sold-for-3m.html",
+    "https://tldinvestors.com/2021/10/meta-cn-acquired-for-130000.html",
+    "https://www.domainblog.com/2023/06/07/did-deepai-com-sell-for-500k/"
+  ],
+  "tweets_jsonl_lines": 15008,
+  "sales_jsonl_lines": 36812,
+  "notes": [
+    "Restart after prior executor zero-writes. Wrote collect-progress-older.json from start.",
+    "Sources: live sitemaps 2018-2024 (tldinvestors, domainblog, thedomains, domainincite) + Wayback jamesnames + WebSearch/SERP leads.",
+    "Deduped by tweet id across tweets*.jsonl + sales.jsonl + premium. Only individual poster_kind; company denylist applied.",
+    "Real /status/ IDs from public blog/Wayback embeds only. No x.com HTML, Nitter, or X API. No site build, no GitHub push.",
+    "Skipped known-empty: ricksblog, namepros 403, dnjournal 403. jamesnames live blocked (Sucuri); used Wayback id_ snapshots.",
+    "Removed one false-positive nonsale (katebuckley1 marketplace rant). Fixed DotWeekly meet.com domain parse."
+  ],
+  "waves": {
+    "wave1_pages": 811,
+    "wave2b_pages": 600,
+    "wave3_pages": 350,
+    "jn_wayback_retries": 11
+  }
+}

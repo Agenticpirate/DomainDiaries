@@ -1,9 +1,9 @@
 {
-  "unique_status_approx": 15973,
-  "tweets_jsonl": 14981,
-  "individuals": 7770,
+  "unique_status_approx": 16000,
+  "tweets_jsonl": 15008,
+  "individuals": 7797,
   "company": 8203,
   "window_2025_2026": 10938,
-  "note": "poster_kind split; prefers individuals; Sep 18 hunt +cultra +mikemanndotcom",
-  "last_hunt": "2026-09-18"
+  "note": "poster_kind split; older archive hunt +27 individuals (2018-2024)",
+  "last_hunt": "2026-09-19-older"
 }
