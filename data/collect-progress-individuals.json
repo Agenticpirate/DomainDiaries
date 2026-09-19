@@ -1,0 +1,93 @@
+{
+  "source": "web-mention",
+  "collected_at": "2026-09-19T11:02:55.000Z",
+  "new_unique_individual_ids": 3,
+  "start_known_numeric_ids": 16000,
+  "individuals_total_after": 7800,
+  "tweets_appended": 3,
+  "sales_appended": 3,
+  "premium_appended": 3,
+  "tweets_2025_2026_appended": 0,
+  "pages_queued": 496,
+  "pages_ok": 495,
+  "pages_fail": 1,
+  "pages_noembed": 477,
+  "pages_with_new": 3,
+  "skipped_company": 3,
+  "skipped_nonsale": 20,
+  "skipped_known": 2,
+  "new_by_host": {
+    "domaininvesting.com": 3
+  },
+  "ok_by_host": {
+    "domaininvesting.com": 212,
+    "onlinedomain.com": 103,
+    "thedomains.com": 175,
+    "dnjournal.com": 1,
+    "ricksblog.com": 3,
+    "domainera.net": 1
+  },
+  "fail_by_host": {
+    "namepros.com": 1
+  },
+  "site_status": {
+    "domaininvesting.com": {
+      "ok": 212,
+      "noembed": 198,
+      "embeds_nonew": 11,
+      "with_new": 3
+    },
+    "onlinedomain.com": {
+      "ok": 103,
+      "noembed": 103
+    },
+    "thedomains.com": {
+      "ok": 175,
+      "noembed": 171,
+      "embeds_nonew": 4
+    },
+    "dnjournal.com": {
+      "ok": 1,
+      "noembed": 1
+    },
+    "namepros.com": {
+      "fail_403": 1
+    },
+    "ricksblog.com": {
+      "ok": 3,
+      "noembed": 3
+    },
+    "domainera.net": {
+      "ok": 1,
+      "noembed": 1
+    }
+  },
+  "top_new_usernames": [
+    [
+      "SedoDaveEvanson",
+      2
+    ],
+    [
+      "mikemanndotcom",
+      1
+    ]
+  ],
+  "sample_new_urls": [
+    "https://x.com/mikemanndotcom/status/491250382723907584",
+    "https://x.com/SedoDaveEvanson/status/182944293961465857",
+    "https://x.com/SedoDaveEvanson/status/361854416866906114"
+  ],
+  "sample_pages": [
+    "https://domaininvesting.com/mike-mann-sells-makesomenoise-com-40k/",
+    "https://domaininvesting.com/sedo-sells-end-com-for-100k/",
+    "https://domaininvesting.com/dji-com-sold-sedo-300000/"
+  ],
+  "errors": [
+    "403 https://www.namepros.com/threads/fureur-com-sold-for-59-888-0802-com-for-26-008.1398446/"
+  ],
+  "notes": [
+    "Only twitter-tweet blockquotes with real /status/ IDs. No invented IDs.",
+    "Skipped company/marketplace/news handles via company-accounts.json + extras.",
+    "Did not scrape x.com HTML, Nitter, or X API."
+  ]
+}

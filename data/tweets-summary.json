@@ -1,9 +1,10 @@
 {
-  "unique_status_approx": 16000,
-  "tweets_jsonl": 15008,
-  "individuals": 7797,
+  "unique_status_approx": 16003,
+  "tweets_jsonl": 15011,
+  "individuals": 7800,
   "company": 8203,
   "window_2025_2026": 10938,
-  "note": "poster_kind split; older archive hunt +27 individuals (2018-2024)",
-  "last_hunt": "2026-09-19-older"
+  "tools": 95,
+  "note": "tools catalog 95; +3 individuals from domaininvesting; more scrape restarting",
+  "last_hunt": "2026-09-19-tools-and-partial"
 }
